@@ -46,7 +46,7 @@ def displayBoard(missedLetters: str, correctLetters: str, secretWord: str) -> No
 def getGuess(alreadyGuessed: str) -> str:
     # Returns the letter the player entered. This function makes sure the player entered a single letter and not something else.
 
-def playAgain():
+def playAgain() -> bool:
     # This function returns True if the player wants to play again; otherwise, it returns False.
 
 

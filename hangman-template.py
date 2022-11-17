@@ -50,7 +50,7 @@ def playAgain() -> bool:
     # This function returns True if the player wants to play again; otherwise, it returns False.
 
 def main():
-	print('H A N G M A N')
+    print('H A N G M A N')
     missedLetters = ''
     correctLetters = ''
     secretWord = getRandomWord(words)
